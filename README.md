@@ -32,7 +32,16 @@ Posteriormente, se realizan pruebas del BOT utilizando diferentes estrategias de
 
 Este desafío explora la creación de un sistema conversacional eficiente para tareas de QA, demostrando cómo los modelos de lenguaje pueden ser aplicados en contextos de interacción con usuarios.
 
-Desafío 5 :
+Desafío 5 : Mejoras en un Modelo de Clasificación Multiclase
+
+Este repositorio contiene la solución al Desafío 5, centrado en implementar mejoras a un modelo de clasificación multiclase ajustando su arquitectura y optimización. El objetivo es adaptar el modelo para clasificar textos en cinco clases que representan diferentes grados de polaridad: Muy negativo, Negativo, Neutro, Positivo y Muy positivo.
+
+Las mejoras incluyen el ajuste del parámetro Output_shape de 3 a 5 para reflejar correctamente las cinco categorías de la tarea de clasificación. Se añadieron capas densas adicionales de 128 y 64 neuronas, que permiten al modelo aprender representaciones más abstractas y complejas. Además, se incorporó regularización con Dropout del 30% tras cada capa densa, con el fin de evitar el sobreajuste y mejorar la capacidad del modelo para generalizar en datos no vistos. La capa de salida fue ajustada con activación softmax para generar probabilidades para las cinco clases.
+
+Finalmente, el modelo fue compilado con métricas de accuracy y F1_score, proporcionando una evaluación más equilibrada y robusta de su rendimiento en la clasificación multiclase.
+
+Este desafío aborda las mejoras en la arquitectura y el entrenamiento del modelo para mejorar su precisión y capacidad de generalización en tareas de clasificación con múltiples categorías.
+
 
 
 
