@@ -22,4 +22,19 @@ En la Parte 2, se implementa un modelo de lenguaje con tokenización por caracte
 
 Este proyecto permite comparar el comportamiento de los modelos de lenguaje con diferentes enfoques de tokenización, explorando cómo las estrategias de búsqueda y la temperatura influyen en la calidad de las secuencias generadas.
 
-Desafío 4 :
+Desafío 4 : Construcción de un BOT Conversacional para Preguntas y Respuestas
+
+Este repositorio contiene la solución al Desafío 4, cuyo objetivo es construir un BOT para responder a preguntas del usuario utilizando los datos del challenge ConvAI2 (Conversational Intelligence Challenge 2). El enfoque se basa en entrenar un modelo de lenguaje capaz de realizar tareas de preguntas y respuestas (QA) en conversaciones en inglés.
+
+El notebook comienza con la carga y exploración del dataset de conversaciones, seguido del preprocesamiento de los datos para estructurarlos de manera adecuada para el entrenamiento. A continuación, se implementa un modelo basado en redes neuronales, optimizado para el contexto de diálogos y respuestas. Se entrenan varios modelos, evaluando su capacidad de generar respuestas coherentes y precisas a partir de las preguntas planteadas.
+
+Posteriormente, se realizan pruebas del BOT utilizando diferentes estrategias de búsqueda, como greedy search y beam search, para generar las respuestas. Finalmente, se evalúa el rendimiento del BOT en términos de fluidez y coherencia en las conversaciones, comparando las diferentes estrategias de generación.
+
+Este desafío explora la creación de un sistema conversacional eficiente para tareas de QA, demostrando cómo los modelos de lenguaje pueden ser aplicados en contextos de interacción con usuarios.
+
+Desafío 5 :
+
+
+
+
+
