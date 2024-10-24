@@ -1,4 +1,4 @@
-# PNL---Proyectos
+# PNL-Proyectos
 Repositorio que contiene trabajos y notebooks de Procesamiento de Lenguaje Natural
 
 Desafío 1 : Análisis de Similaridad y Clasificación
