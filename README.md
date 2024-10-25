@@ -42,6 +42,8 @@ Este desafío explora la creación de un sistema conversacional eficiente para t
 
 Desafío 5 : Mejoras en un Modelo de Clasificación Multiclase
 
+![Desafío 5](https://drive.google.com/uc?id=1fI5K_LpytWCK6H877aQfDKgs_IWqOBeD)
+
 Este repositorio contiene la solución al Desafío 5, centrado en implementar mejoras a un modelo de clasificación multiclase ajustando su arquitectura y optimización. El objetivo es adaptar el modelo para clasificar textos en cinco clases que representan diferentes grados de polaridad: Muy negativo, Negativo, Neutro, Positivo y Muy positivo.
 
 Las mejoras incluyen el ajuste del parámetro Output_shape de 3 a 5 para reflejar correctamente las cinco categorías de la tarea de clasificación. Se añadieron capas densas adicionales de 128 y 64 neuronas, que permiten al modelo aprender representaciones más abstractas y complejas. Además, se incorporó regularización con Dropout del 30% tras cada capa densa, con el fin de evitar el sobreajuste y mejorar la capacidad del modelo para generalizar en datos no vistos. La capa de salida fue ajustada con activación softmax para generar probabilidades para las cinco clases.
