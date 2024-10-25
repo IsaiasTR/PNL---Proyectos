@@ -9,6 +9,8 @@ En este desafío, se abordaron tres consignas clave: primero, se vectorizaron do
 
 Desafío 2 : Generación y Análisis de Embeddings con Word2Vec
 
+![Desafío 2](https://drive.google.com/uc?id=1zvOGOPpqpvGLxNFrDNi20xH3MmGk2rgE)
+
 En el Desafío 2, el objetivo fue crear vectores de palabras utilizando Gensim y un dataset del Proyecto Gutenberg. Se exploran las similitudes entre términos, se prueban tests de analogías y se visualizan los embeddings resultantes.
 
 En preprocesamiento_datos.ipynb, se realiza la limpieza y preparación del corpus. En entrenamiento_word2vec.ipynb, se entrena el modelo Word2Vec ajustando parámetros clave. En analisis_similitudes.ipynb, se analizan las similitudes entre palabras en el espacio de embeddings. En tests_analogias.ipynb, se prueban analogías semánticas. Finalmente, visualizacion_embeddings.ipynb presenta la proyección de los embeddings en 2D usando t-SNE o PCA.
