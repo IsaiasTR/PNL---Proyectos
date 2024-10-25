@@ -18,6 +18,8 @@ El proyecto demuestra cómo los embeddings capturan relaciones semánticas y per
 
 Desafío 3 : Modelos de Lenguaje Basados en Tokenización por Palabras y Caracteres
 
+![Desafío 2](https://drive.google.com/uc?id=1m-AOuf9VotQtCmshWsL6QnzAwtHWL7_r)
+
 Este repositorio contiene la solución al desafio 3, dividido en dos partes, donde se implementan modelos de lenguaje basados en tokenización por palabras y por caracteres utilizando redes neuronales recurrentes (RNN). Ambos modelos generan secuencias de texto a partir de secuencias de contexto, explorando diferentes estrategias de búsqueda para la generación.
 
 En la Parte 1, se trabaja con un modelo de lenguaje con tokenización por palabras. El notebook correspondiente realiza el preprocesamiento del corpus, tokeniza el texto por palabras y lo divide en conjuntos de entrenamiento y validación. Luego, se entrenan modelos de RNN con diferentes arquitecturas y se generan nuevas secuencias utilizando greedy search, beam search y beam search estocástico. Además, se analiza cómo la variación de la temperatura afecta la generación de texto en la búsqueda estocástica.
